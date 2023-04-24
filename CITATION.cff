@@ -1,1 +1,8 @@
-
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "de Oliveira Hitzges"
+  given-names: "Diego"
+  orcid: "https://orcid.org/0009-0000-3978-0591"
+title: "Job-Scheduling-Deep-Reinforcement-Learning"
+date-released: 2023-04-01
+url: "https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning"
