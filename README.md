@@ -25,7 +25,7 @@ We will see that our Neural Network vastly outperforms it.<br>
 
 # Code
 
-<in>**Main Notebook**</ins>:
+## Main Notebook
 
 The Notebook "Main" goes through the entire process listed above and guides the user through
 * how everything was constructed and how we obtained the Neural Network. This enables him to reproduce everything.
