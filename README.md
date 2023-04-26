@@ -25,13 +25,15 @@ We will see that our Neural Network vastly outperforms it.<br>
 
 # Code
 
-## Main Notebook
+All the code is written in python and uploaded as [Notebooks](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/tree/main/Notebooks).
+
+### Main Notebook
 
 The Notebook "Main" goes through the entire process listed above and guides the user through
 * how everything was constructed and how we obtained the Neural Network. This enables him to reproduce everything.
 * how to use the given code to apply the Neural Network as a scheduling rule to any Job Scheduling Problem of choice and analyze the results.
 
-It makes use of the following [Notebooks](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/tree/main/Notebooks) in which all necessary classes, functions and Network layer were defined:
+It makes use of the following [Notebooks] in which all necessary classes, functions and Network layer were defined:
 
 - [Global_Variables](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Notebooks/Global_Variables.ipynb):
   - Helper Notebook to make global variables accessible for all other Notebooks
