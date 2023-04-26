@@ -15,7 +15,7 @@ Then we compute the true Q-values with brute force for Job Scheduling Problems w
 We exctract the [data](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/tree/main/Data) from these simulated states and use them to supervisedly train a Neural Network.<br>
 This [Neural Network](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Neural_Networks/Neural_Network.h5) contains architectures of Natural Language Processing models to handle the variability of the dimension in the data due to changing numbers of Jobs and Machines.<br>
 By using it as a Target Network, we can then apply Deep Reinforcement Learning techniques.
-Therefore, we iteratively estimate [data](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/tree/main/Data/EstimData) of Job Scheduling Problems with higher Job numbers and uptrain the Network.<br>
+Therefore, we iteratively [estimate data](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/tree/main/Data/EstimData) of Job Scheduling Problems with higher Job numbers and uptrain the Network.<br>
 
 <ins>Results:</ins><br>
 We compare the scheduling costs obtained by our Neural Network to the optimal costs.<br>
@@ -47,7 +47,7 @@ It makes use of the following [Notebooks](https://github.com/Dieguinho1612/Job-S
 - [Data_for_NN](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Notebooks/Data_for_NN.ipynb):
   - Function to extract data from states
     
- - [Random_Generator](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Notebooks/Random_Generator.ipynb):
+- [Random_Generator](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Notebooks/Random_Generator.ipynb):
   - Function to generate random Job Scheduling Problems with random Jobs and Machines
   
 - [Action_Pointer](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Notebooks/Action_Pointer.ipynb):
