@@ -25,7 +25,7 @@ We will see that our Neural Network vastly outperforms it.<br>
 
 # Code
 
-All the code is written in python and uploaded as [Notebooks](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/tree/main/Notebooks).
+All the code is written in Python 3 and uploaded as [Jupyter Notebooks](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/tree/main/Notebooks).
 
 # Files
 
