@@ -1,11 +1,24 @@
-#True Data
+# Data
 
-Running the Script [Script_Compute_Data](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Notebooks/Script_Compute_Data.ipynb) on a cluster, random Job Scheduling Problems consisting of 8 Jobs and 4 Machines have been simulated with regards to some chosen conditions. Every directory <i>DataSet_xx</i> contains 10.000 data dictionaries, each of them containing the data of one of these Job Scheduling Problems. These dictionares are indexed from <i>10.000*(xx-1)</i> to <i>10.000*xx - 1 </i>.<br>
+The following data has been used to train, validate, test and uptrain our [Neural Network](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Neural_Networks/Neural_Network.h5). After their creation, the Notebook [LSTM_Data](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Notebooks/LSTM_Data.ipynb) has been run of each of these directories, merging the corresponding immanent data dictionaries, transforming them accordingly, splitting them into subsets and saving them in the respective sub-directory <i>LSTM_Data_RR</i>. Each of these subsets is defined by the number of remaining Jobs and Machines of the states whose data it contains.<br>
 
-The Notebook [LSTM_Data](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Notebooks/LSTM_Data.ipynb) has been run of each of these directories, merging all its data dictionaries, transforming their data accordingly, splitting them in 18 subsets and saving them in the sub-directory <i>LSTM_Data_RR_xx</i>. Each of these subsets is defined by the number of remaining Jobs from 3 to 8 and active Machines from 2 to 4 of the states whose data it contains.<br>
+### Data Set 1-10
 
-The data sets <i>1 - 10</i> have been balanced in the distribution of which action is optimal. They have been used to train our principal [Neural Network](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Neural_Networks/Neural_Network.h5). The data sets <i>98</i> and <i>998</i> have not been balanced. The first served as validation set, the second as test set.<br>
+Used as Training Set.<br>
+Created by running [Script_Compute_Data](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Notebooks/Script_Compute_Data.ipynb) on a cluster.<br>
+Random Job Scheduling Problems consisting of 8 Jobs and 4 Machines have been simulated with regards to some chosen conditions.<br>
+Each of them results in data dictionary, balanced in the distribution of optimality over the feasible actions.<br>
+Every Directory contains 10.000 such data dictionaries.
 
-#Estimated Data
+### Data Set 98 + 99
 
-The estimated Data is saved in [EstimData](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/tree/main/Data/EstimData). We have itertively increased the number of Jobs <i>n</i>, simulated according Job Scheduling Problems, estimated the Q-values by using the Neural Network from the previous iteration and saved the data from the states in which all <i>n</i> Jobs were still remaining. We did so for Job numbers from 9 to 12. Analogously, subsequently we ran the Notebook [LSTM_Data](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Notebooks/LSTM_Data.ipynb) on them as well, resulting in three subsets of estimated data of <i>n</i> pending Jobs and 2,3 or 4 active Machines for every such <i>n</i>. The Neural Network was then uptrained on all so far estimated data points.
+DataSet98 is the validation set, DataSet99 the test test.<br>
+Created analogously but without being balanced.
+
+### EstimData
+
+Used to train the Neural Network on successively increasing numbers of Jobs.<br>
+Created by running [Script_Compute_Data](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Notebooks/Script_Compute_Data.ipynb) on a cluster.<br>
+For every such increased number of Jobs <i>n</i>, 100.000 Jobs Scheduling Problems with <i>n</i> Jobs and 4 Machines have been simulated.<br>
+The Q-values of the corresponding states have been estimated by using the Neural Network of the previous iteration as Target Network.<br>
+The estimated data has been safed in the respective sub-directory for Job numbers from 9 to 12.
