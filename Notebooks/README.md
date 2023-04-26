@@ -1,6 +1,6 @@
 # Main Notebook
 
-The Notebook "Main" goes through the entire process listed above and guides the user through
+The Notebook [Main](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Notebooks/Main.ipynb) goes through the entire process listed above and guides the user through
 * how everything was constructed and how we obtained the Neural Network. This enables him to reproduce everything.
 * how to use the given code to apply the Neural Network as a scheduling rule to any Job Scheduling Problem of choice and analyze the results.
 
