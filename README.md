@@ -25,9 +25,11 @@ We will see that our Neural Network vastly outperforms it.<br>
 
 # Code
 
+<in>**Main Notebook**</ins>:
+
 The Notebook "Main" goes through the entire process listed above and guides the user through
-- how everything was constructed and we obtained the Neural Network. This enables him to reproduce everything.
-- how to use the given code to apply the Neural Network as a scheduling rule to any Job Scheduling Problem of choice and analyze the results.
+* how everything was constructed and how we obtained the Neural Network. This enables him to reproduce everything.
+* how to use the given code to apply the Neural Network as a scheduling rule to any Job Scheduling Problem of choice and analyze the results.
 
 It makes use of the following [Notebooks](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/tree/main/Notebooks) in which all necessary classes, functions and Network layer were defined:
 
