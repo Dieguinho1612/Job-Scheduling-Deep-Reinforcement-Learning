@@ -1,6 +1,6 @@
 The entire theoretical background as well as the obtained results are explained in detail in the PDF [Theory_and_Results](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Theory_and_Results.pdf) of my Master Thesis.
 
-<u>Probem Formulation:</u><br>
+<ins>Probem Formulation:</ins><br>
 We treat Job Scheduling Problems on Unrelated Machines with an initial occupation and deterministic processing times.<br>
 Both, Jobs and Machines have deadlines and weights.<br>
 We want to minimize the sum of the makespan with the weigthed sum of the Job and Machine tardinesses.<br>
