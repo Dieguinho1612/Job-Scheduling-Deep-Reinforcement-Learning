@@ -10,8 +10,8 @@ Our approach is to apply Deep Reinforcement Learning.
 We will embed these problems into a reinforcement learning environment with every decision situation being a state.
 We identify policies with scheduling rules.
 Then we compute the true Q-values with brute force for Job Scheduling Problems with 8 Jobs and 4 Machines.
-We exctract the data from these simulated states.
-We create a Network and train it supervisedly on this data.
+We exctract the data from these simulated states and use them to supervisedly train a Neural Network.
+This Neural Network conts architectures of Natural Language Processing models to handle the variability of the dimension in the data due to changing numbers of Jobs and Machines.
 By using it as a Target Network, we can then apply Deep Reinforcement Learning techniques.
 Therefore, we iteratively estimate data of Job Scheduling Problems with higher Job numbers and uptrain the Network.
 
