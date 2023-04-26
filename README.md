@@ -31,6 +31,6 @@ All the code is written in Python 3 and uploaded as Jupyter [Notebooks](https://
 
 Besides the directory of Notebooks, there are two more directories containing files:
 
-- [Neural Networks](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/tree/main/Neural_Networks): Contains the <i>h5</i> file of the principal [Neural Network](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Neural_Networks/Neural_Network.h5) after it has been trained supervisedly. It also contains its <i>h5</i> files after having been uptrained to higher numbers of Jobs by using the corresponding estimated data sets.
+- [Neural Networks](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/tree/main/Neural_Networks): Contains the <i>h5</i>-file of the principal [Neural Network](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Neural_Networks/Neural_Network.h5) after it has been trained supervisedly. It also contains its <i>h5</i>-files after having been uptrained to higher numbers of Jobs by using the corresponding estimated data sets.
 - [Data](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/tree/main/Data): Contains all the data we computed to train, validate and test the Neural Network. It also contains all the data that we have estimated to uptrain it to higher numbers of Jobs.
 
