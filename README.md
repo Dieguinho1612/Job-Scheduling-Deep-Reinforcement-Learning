@@ -1,4 +1,6 @@
-The entire theoretical background as well as the obtained results are explained in detail in the PDF [Theory_and_Results](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Theory_and_Results.pdf) of my Master Thesis.
+The entire theoretical background as well as the obtained results are explained in detail in the PDF 
+<p style="text-align: center;">Centered text[Theory_and_Results](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Theory_and_Results.pdf)</p>
+of my Master Thesis.
 
 <ins>Probem Formulation:</ins><br>
 We treat Job Scheduling Problems on Unrelated Machines with an initial occupation and deterministic processing times.<br>
