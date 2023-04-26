@@ -20,4 +20,3 @@ We compare the scheduling costs obtained by our Neural Network to the optimal co
 We will find that they do not differ much.
 We then compare them to a heuristic scheduling algorithm.
 We will see that our Neural Network vastly outperforms it.
-
