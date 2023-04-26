@@ -44,7 +44,7 @@ It makes use of the following Notebooks in which all necessary classes, function
 
 We have computed large data sets and tested the Neural Network on a large set of Job Scheduling Problems. To do so more efficiently, we have used a cluster. The following Notebooks are the scripts that have been used for this.
 
-- [Script_Compute_Data](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Notebooks/Script_Compute_Data.ipynb): This is the script to compute and save the data sets that we have used to train, validate and test the Neural Networks by simulating Job Scheduling Problem according to some conditions given by the user.
+- [Script_Compute_Data](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Notebooks/Script_Compute_Data.ipynb): This is the script to compute and save the data sets that that have been used to train, validate and test the Neural Networks by simulating Job Scheduling Problem according to some conditions given by the user.
 
 - [Script_Estimate_Data](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Notebooks/Script_Estimate_Data.ipynb): This is the script to estimate and save data for a chosen quantity of simulated Job Scheduling Problems whose number of Jobs has been increased by 1.
 
