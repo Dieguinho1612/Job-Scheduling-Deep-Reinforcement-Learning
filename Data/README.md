@@ -1,6 +1,6 @@
 # Data
 
-The following directories define data sets. The included files are dictionaries, each of them corresponding to a Job Scheduling Problem. Their keys are the 2-tuples (<i>n_state</i>, <i>m_state</i>). The assigned lists consist of the data of the states with <i>n_state</i> remaining Jobs and <i>m_state</i> active Machines.<br>
+The following directories define data sets. The included files are dictionaries, each of them corresponding to one Job Scheduling Problem. Their keys are the 2-tuples (<i>n_state</i>, <i>m_state</i>). The assigned lists consist of the data of the states with <i>n_state</i> remaining Jobs and <i>m_state</i> active Machines.<br>
 
 The Notebook [LSTM_Data.ipynb](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Notebooks/LSTM_Data.ipynb) has been run of each directory to merge all included dictionaries. It did so by saving the concatenation of all lists belonging to the same key in the sub-directory <i>LSTM_Data_RR</i>. Thereby, the immanent data got transformed into a compatible form to train, validate, test and uptrain our [Neural Network](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Neural_Networks/Neural_Network.h5).<br>
 
