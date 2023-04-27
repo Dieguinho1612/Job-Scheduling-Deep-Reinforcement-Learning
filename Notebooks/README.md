@@ -46,7 +46,7 @@ We have computed large data sets and tested the Neural Network on a large set of
 
 - [Script_Estimate_Data.ipynb](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Notebooks/Script_Estimate_Data.ipynb): This is the script to estimate and save data for a chosen quantity of simulated random Job Scheduling Problems whose number of Jobs has been increased by 1.
 
-- [Script_Compare_Schedules.ipynb](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Notebooks/Script_Compare_Schedules.ipynb): In this script, the average scheduling costs arising by different versions of the Neural Network, the heuristic algorithm and the optimal policy have been compared. The respective ratios got printed.
+- [Script_Compare_Schedules.ipynb](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Notebooks/Script_Compare_Schedules.ipynb): In this script, the average scheduling costs for simulated random Job Scheduling Problems that arise by different versions of the Neural Network, the heuristic algorithm and the optimal policy have been compared. The respective ratios got printed.
 
 
 # Side Notebooks
