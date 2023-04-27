@@ -1,8 +1,8 @@
 cff-version: 1.0.0
 message: "If you use this software, please cite it as below."
 authors:
-- family-names: "de Oliveira Hitzges"
-  given-names: "Diego"
+- family-names: de Oliveira Hitzges
+  given-names: Diego
   orcid: "https://orcid.org/0009-0000-3978-0591"
 title: "Job-Scheduling-Deep-Reinforcement-Learning"
 version: v1.0.0
