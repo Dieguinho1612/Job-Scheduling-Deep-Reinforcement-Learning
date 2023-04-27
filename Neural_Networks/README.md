@@ -2,6 +2,6 @@
 
 Our principal [Neural Network](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Neural_Networks/Neural_Network.h5) has been created and trained supervisedly in the Notebook [Neural_Network.ipynb](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Notebooks/Neural_Network.ipynb). Its layers, loss function and metric have been defined in the Notebook [Action_Pointer.ipynb](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Notebooks/Action_Pointer.ipynb). It has been trained on the data sets 1-10, validated with data set 98 and tested by data set 99 from the [Data directory](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/tree/main/Data). It is the best performing Neural Network among all saved in this directory.
 
-# Deep Reinforced Network
+# Deeply Reinforced Network
 
 The Supervised Network has itertively been trained on the estimated data of Job Scheduling Problems of successively increasing numbers of Jobs. The Neural Network of the respective previous iteration has been used as Target Network to estimate the Q-values of the corresponding states. Then, in every such iteration the Notebook [Uptrain_Neural_Network.ipynb](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Notebooks/Uptrain_Neural_Network.ipynb) has been run on the augmented set of estimated data points to update the weights. We have saved the updated versions of the Neural Network for 9 to 12 Jobs.
