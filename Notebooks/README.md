@@ -35,7 +35,7 @@ It makes use of the following Notebooks in which all necessary classes, function
   - Function to compare average scheduling costs for random Job Scheduling Problems between optimal policy, Neural Network policy and heuristic policy  
   
 - [Visualizations.ipynb](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Notebooks/Visualizations.ipynb):
-  - Functions to visualize schedules. In specific, to print schedule as gantt chart
+  - Functions to visualize schedules. In specific, to print schedule as a gantt chart
 
 
 # Scripts
