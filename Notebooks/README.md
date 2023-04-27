@@ -12,10 +12,10 @@ It makes use of the following Notebooks in which all necessary classes, function
 
 - [States_and_Policies.ipynb](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Notebooks/States_and_Policies.ipynb):
   - Definition of class of states
-  - Function to compute initial state which represents Job Scheduling Problem
-  -Function to iteratively compute all states
-  -Function to recursively calculate all Q-values
-  -Function to create optimal policy and random policy
+  - Function to compute initial state that represents a Job Scheduling Problem
+  - Function to iteratively compute all states
+  - Function to recursively calculate all Q-values
+  - Function to create optimal policy and random policy
   
 - [Data_for_NN.ipynb](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Notebooks/Data_for_NN.ipynb):
   - Function to extract data from states
