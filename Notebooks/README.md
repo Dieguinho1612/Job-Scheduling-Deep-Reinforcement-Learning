@@ -53,7 +53,7 @@ We have computed large data sets and tested the Neural Network on a large set of
 
 These Notebooks have been run through already. They can be reused to reproduce, vary or adapt our applied approach.
 
-- [LSTM_Data.ipynb](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Notebooks/LSTM_Data.ipynb): By running this Notebook and selecting the respective directory, all included data dictionaries get merged and transformed into a form compatible with our Neural Network.
+- [LSTM_Data.ipynb](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Notebooks/LSTM_Data.ipynb): By running this Notebook and selecting the respective directory, all included data dictionaries get merged and the immanent data transformed into a form compatible with our Neural Network.
 
 - [Neural_Network.ipynb](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Notebooks/Neural_Network.ipynb): In this Notebook we have loaded the transformed data and defined, supervisedly trained, validated, tested and finally saved our principal [Neural Network](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Neural_Networks/Neural_Network.h5).
 
