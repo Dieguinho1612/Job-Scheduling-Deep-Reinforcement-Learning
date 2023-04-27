@@ -1,6 +1,6 @@
 # Main Notebook
 
-The Notebook [Main.ipynb](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Notebooks/Main.ipynb) guides the user through the entire process of implementing the problem and our approach to it. It illustrates how we obtained our Neural Network, how to use it and how to analyse its performance. This enables the user to reproduce everything and to use the code of this git repository to apply the Neural Network to any Job Scheduling Problem of choice.<br>
+The Notebook [Main.ipynb](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Notebooks/Main.ipynb) guides the user through the entire process of implementing the problem and our approach to it. It illustrates how we obtained our Neural Network and explains how to use it and how to analyse its performance. This enables the user to reproduce everything and to use the code of this git repository to apply the Neural Network to any Job Scheduling Problem of choice.<br>
 
 It makes use of the following Notebooks in which all necessary classes, functions and Network layer were defined:
 
