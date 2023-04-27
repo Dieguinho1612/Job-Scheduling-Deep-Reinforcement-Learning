@@ -1,6 +1,8 @@
 # Data
 
-The following data has been used to train, validate, test and uptrain our [Neural Network](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Neural_Networks/Neural_Network.h5). After their creation, the Notebook [LSTM_Data.ipynb](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Notebooks/LSTM_Data.ipynb) has been run of each of these directories, merging the corresponding immanent data dictionaries, transforming them accordingly, splitting them into subsets and saving them in the respective sub-directory <i>LSTM_Data_RR</i>. Each of these subsets is defined by the number of remaining Jobs and Machines of the states whose data it contains. The keys of any data dictionary are defined the same way.<br>
+The following directories define data sets. The included files are dictionaries, each of them corresponding to a Job Scheduling Problem. Their keys are the 2-tuples (<i>n_state</i>,<i>m_state</i>). The assigned lists consist of the data of the states with <i>n_state</i> remaining Jobs and <i>m_state</i> active Machines.<br>
+
+The Notebook [LSTM_Data.ipynb](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Notebooks/LSTM_Data.ipynb) has been run of each directory to merge all included dictionaries. It did so by saving the concatenation of all lists belonging to the same key in the sub-directory <i>LSTM_Data_RR</i>. Thereby, the immanent data got transformed and brought into a compatible form to train, validate, test and uptrain our [Neural Network](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Neural_Networks/Neural_Network.h5).<br>
 
 ### Data Set 1-10
 
