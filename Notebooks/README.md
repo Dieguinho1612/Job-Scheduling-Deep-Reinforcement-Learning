@@ -28,8 +28,8 @@ It makes use of the following Notebooks in which all necessary classes, function
   - Loss function and metric for Neural Network
   
 - [Scheduling_Decisions.ipynb](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Notebooks/Scheduling_Decisions.ipynb):
-  - Function to deduce policy from Neural Network
   - Function to calculate policy costs
+  - Function to deduce policy from Neural Network
   - Function to use Neural Network as Target Network to estimate data from Scheduling Problems with higher numbers of Jobs
   - Function to apply heuristic algorithm as scheduling rule
   - Function to compare average scheduling costs for random Job Scheduling Problems between optimal policy, Neural Network policy and heuristic policy  
